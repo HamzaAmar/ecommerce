@@ -1,0 +1,63 @@
+.btn {
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+  min-width: 7rem;
+}
+
+/* Button Size Style Section */
+
+.xs {
+  padding: 0.125em 0.25em;
+}
+.sm {
+  padding: 0.25em 0.5em;
+}
+.md {
+  padding: 0.5em 1em;
+}
+.lg {
+  padding: 1.25em 1.5em;
+}
+.xl {
+  padding: 1.5em 2em;
+}
+
+.rightMargin {
+  margin-right: 0.5rem;
+}
+
+.leftMargin {
+  margin-left: 0.5rem;
+}
+
+/* Button Color Style Section */
+
+.contained {
+  background: var(--primary-color-dark);
+  color: var(--background-color);
+}
+.contianed:hover {
+  background: var(--primary-color-light);
+}
+:disable,
+.c {
+}
+.outline {
+  border: 2px solid;
+  color: var(--primary-color-dark);
+}
+
+.text {
+  color: var(--primary-color-dark);
+}
+
+.facebook {
+  background: rgb(45, 92, 194);
+}
+
+.gmail {
+}

@@ -1,9 +1,18 @@
 import React from 'react';
 
-import styles from './layout.module.css';
+import { Footer, Header } from '..';
 
-const layout = () => {
-  return <div>layout</div>;
+import styles from './layout.module.css';
+import { LayoutProps } from './layout.type';
+
+const layout = ({ children }: LayoutProps) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
 };
 
 export default layout;
